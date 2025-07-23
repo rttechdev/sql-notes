@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Markdown Viewer</title>
   <style>
-  body { margin: 0; font-family: Arial, sans-serif; }
-  .container { display: flex; height: 100vh; }
-  .sidebar {
-    width: 250px;
-    background: #f4f4f4;
-    border-right: 1px solid #ccc;
-    overflow-y: auto;
-    padding: 20px;
-  }
-  .preview {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
-    background: #fff;
-  }
-  .sidebar a {
-    display: block;
-    margin-bottom: 10px;
-    color: #3366cc;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  .sidebar a.active { color: #222; }
-  /* Improved code block styling */
-  pre, code {
-    background: #272822;
-    color: #f8f8f2;
-    border-radius: 4px;
-    font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
-    font-size: 15px;
-  }
-  pre {
-    padding: 16px;
-    margin: 1em 0;
-    overflow-x: auto;
-    white-space: pre;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 100%;
-  }
-  code {
-    padding: 2px 4px;
-    white-space: pre-wrap;
-    background: #f5f2f0;
-    color: #c7254e;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  pre code {
-    background: none;
-    color: inherit;
-    padding: 0;
-    font-size: inherit;
-  }
-</style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 250px;
+      background: #f4f4f4;
+      border-right: 1px solid #ccc;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    .preview {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background: #fff;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 10px;
+      color: #3366cc;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .sidebar a.active {
+      color: #222;
+    }
+
+    /* Improved code block styling */
+    pre,
+    code {
+      background: #272822;
+      color: #f8f8f2;
+      border-radius: 4px;
+      font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+      font-size: 15px;
+    }
+
+    pre {
+      padding: 16px;
+      margin: 1em 0;
+      overflow-x: auto;
+      white-space: pre;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    code {
+      padding: 2px 4px;
+      white-space: pre-wrap;
+      background: #f5f2f0;
+      color: #c7254e;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    pre code {
+      background: none;
+      color: inherit;
+      padding: 0;
+      font-size: inherit;
+    }
+  </style>
 </head>
+
 <body>
   <div class="container">
     <div class="sidebar" id="sidebar">
@@ -74,51 +94,82 @@
   <script>
     // List your markdown files here
     const files = [
-      
-"01_Select.md",
-"02_Select_Distinct.md",
-"03_Count.md",
-"04_AS_Clause.md",
-"04_Where.md",
-"05_Order_By.md",
-"06_LIMIT.md",
-"07_Between.md",
-"08_IN_NOT-IN.md",
-"09_Group_By_Overview.md",
-"10_Aggregate_functions.md",
-"11_Group_By.md",
-"12_Having.md",
-"13_Group_By_Having.md",
-"14_Inner_Join.md",
-"15_Full_Outer_Join.md",
-"16_Left_Outer_Join.md",
-"17_Joins_Unions.md",
-"18_Right_Join.md",
-"19_Union.md",
-"20_Timestamp_and_Extract.md",
-"21_Mathematical_Functions.md",
-"22_String_Functions_&_Operations.md",
-"23_Chosing_Data_Types.md",
-"24_Primary_Foreign_Keys.md",
-"25_Constraints.md",
-"26_Create_Table.md",
-"27_Insert_Into.md",
-"28_Update.md",
-"29_Delete.md",
-"30_ALTER_TABLE.md",
-"31_DROP_COLUMN.md",
-"32_CHECK Constraint.md",
-"33_Conditional Expressions & Operators.md",
-"34_CASE.md",
-"35_COALESCE.md",
-"36_CAST.md",
-"37_NULLIF.md",
-"38_Views.md",
-"39_Import & Export Data with pgAdmin.md"
+
+      "01_Select.md",
+      "02_Select_Distinct.md",
+      "03_Count.md",
+      "04_AS_Clause.md",
+      "04_Where.md",
+      "05_Order_By.md",
+      "06_LIMIT.md",
+      "07_Between.md",
+      "08_IN_NOT-IN.md",
+      "09_Group_By_Overview.md",
+      "10_Aggregate_functions.md",
+      "11_Group_By.md",
+      "12_Having.md",
+      "13_Group_By_Having.md",
+      "14_Inner_Join.md",
+      "15_Full_Outer_Join.md",
+      "16_Left_Outer_Join.md",
+      "17_Joins_Unions.md",
+      "18_Right_Join.md",
+      "19_Union.md",
+      "20_Timestamp_and_Extract.md",
+      "21_Mathematical_Functions.md",
+      "22_String_Functions_&_Operations.md",
+      "23_Chosing_Data_Types.md",
+      "24_Primary_Foreign_Keys.md",
+      "25_Constraints.md",
+      "26_Create_Table.md",
+      "27_Insert_Into.md",
+      "28_Update.md",
+      "29_Delete.md",
+      "30_ALTER_TABLE.md",
+      "31_DROP_COLUMN.md",
+      "32_CHECK Constraint.md",
+      "33_Conditional Expressions & Operators.md",
+      "34_CASE.md",
+      "35_COALESCE.md",
+      "36_CAST.md",
+      "37_NULLIF.md",
+      "38_Views.md",
+      "39_Import & Export Data with pgAdmin.md"
     ];
 
     const sidebar = document.getElementById('sidebar');
     const preview = document.getElementById('preview');
+
+    // Convert file name "23_Chosing_Data_Types.md" -> "23. Chosing Data Types"
+    function getSidebarText(file) {
+      // Remove .md extension
+      let name = file.replace(/\.md$/, '');
+
+      // Split into number and rest
+      let match = name.match(/^(\d+)_([\s\S]+)$/);
+      if (match) {
+        let num = match[1];
+        let rest = match[2];
+
+        // Replace underscores with spaces
+        rest = rest.replace(/_/g, ' ');
+
+        // Replace & with "and"
+        rest = rest.replace(/&/g, 'and');
+
+        // Capitalize each word
+        rest = rest.replace(/\b\w+/g, function (word) {
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        });
+
+        return `${num}. ${rest}`;
+      } else {
+        // Fallback: just remove .md and capitalize
+        return name.replace(/_/g, ' ').replace(/\b\w+/g, function (word) {
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        });
+      }
+    }
 
     function loadFile(fileName, linkElem) {
       fetch(fileName)
@@ -136,7 +187,7 @@
     // Populate sidebar
     files.forEach(file => {
       const a = document.createElement('a');
-      a.textContent = file.replace(/\.md$/, '');
+      a.textContent = getSidebarText(file);
       a.href = "#";
       a.onclick = (e) => {
         e.preventDefault();
@@ -146,4 +197,5 @@
     });
   </script>
 </body>
+
 </html>
