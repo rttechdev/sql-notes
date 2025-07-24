@@ -194,7 +194,7 @@
       .sidebar {
         width: 270px;
         position: fixed;
-        left: -280px;
+        left: 0;
         top: 0;
         bottom: 0;
         height: 100vh;
@@ -203,14 +203,25 @@
         border-right: 1px solid #dedede;
         box-shadow: 2px 0 12px #eee;
         padding-top: 60px;
+        transform: translateX(-100%);
+        transition: transform 0.2s;
       }
 
       .sidebar.open {
-        left: 0;
+        transform: translateX(0);
       }
 
       .menu-toggle {
         display: block;
+        position: absolute;
+        left: 18px;
+        top: 22px;
+        z-index: 101;
+      }
+
+      .header {
+        position: relative;
+        padding-left: 60px; /* Add space for menu icon */
       }
 
       .preview {
@@ -278,9 +289,9 @@
     </div>
   </div>
   <footer>
-    Made with <span style="color: #e25555">&#10084;</span> by
+    Made by
     <a href="https://github.com/rttechdev" target="_blank"
-      style="color: #3366cc; text-decoration: none; font-weight: 600">rttechdev</a>
+      style="color: #3366cc; text-decoration: none; font-weight: 600">Roshan Tiwari</a>
     |
     <a href="https://github.com/rttechdev/sql-notes" target="_blank" style="color: #3366cc; text-decoration: none">View
       on GitHub</a>
