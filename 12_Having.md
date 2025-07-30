@@ -1,4 +1,4 @@
-# 🧠 SQL HAVING Clause – Summary
+# 🧠 SQL HAVING Clause
 
 ---
 

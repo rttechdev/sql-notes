@@ -1,4 +1,4 @@
-# 📒 SQL Notes: ALTER TABLE
+# 📒 ALTER TABLE
 
 ---
 

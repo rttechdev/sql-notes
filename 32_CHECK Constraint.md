@@ -1,4 +1,4 @@
-# 📒 SQL Notes: CHECK Constraint
+# 📒 CHECK Constraint
 
 ---
 

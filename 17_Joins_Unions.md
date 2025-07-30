@@ -1,4 +1,4 @@
-# 📘 SQL Joins & Unions – Summary Notes
+# 📘 SQL Joins & Unions
 
 ---
 

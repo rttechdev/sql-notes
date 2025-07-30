@@ -1,4 +1,4 @@
-# 🧠 SQL LEFT OUTER JOIN — Notes & Use Cases
+# 🧠 SQL LEFT OUTER JOIN
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎓 Lecture Summary: The AS Clause in SQL
+# 🎓 The AS Clause in SQL
 
 ---
 

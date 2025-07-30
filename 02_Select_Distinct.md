@@ -1,4 +1,4 @@
-# 🟦 SQL: SELECT DISTINCT — Summary Notes
+# 🟦 SQL: SELECT DISTINCT
 
 ## ✅ Purpose
 

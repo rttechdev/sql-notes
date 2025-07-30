@@ -1,4 +1,4 @@
-# 📒 SQL Notes: Import & Export Data with pgAdmin
+# 📒 Import & Export Data with pgAdmin
 
 ---
 

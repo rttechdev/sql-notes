@@ -1,4 +1,4 @@
-# ✅ SQL Notes – GROUP BY & HAVING
+# ✅ GROUP BY & HAVING
 
 ---
 

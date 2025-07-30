@@ -1,4 +1,4 @@
-# 📒 SQL Notes: UPDATE
+# 📒 UPDATE
 
 ---
 

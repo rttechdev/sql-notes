@@ -1,4 +1,4 @@
-# 📒 SQL Notes: Primary & Foreign Keys
+# 📒 Primary & Foreign Keys
 
 ---
 

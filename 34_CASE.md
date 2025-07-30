@@ -1,4 +1,4 @@
-# 📒 SQL Notes: CASE Statement
+# 📒 CASE Statement
 
 ---
 

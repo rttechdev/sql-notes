@@ -1,4 +1,4 @@
-# 📒 SQL Notes: Conditional Expressions & Operators
+# 📒 Conditional Expressions & Operators
 
 ---
 

@@ -1,4 +1,4 @@
-# 🧠 SQL Notes: Aggregate Functions (Before GROUP BY)
+# 🧠 Aggregate Functions (Before GROUP BY)
 
 ---
 

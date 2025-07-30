@@ -1,4 +1,4 @@
-# 📒 SQL Notes: CREATE TABLE
+# 📒 CREATE TABLE
 
 ---
 

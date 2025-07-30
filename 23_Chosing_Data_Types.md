@@ -1,4 +1,4 @@
-# 📒 SQL Notes: Choosing Data Types
+# 📒 Choosing Data Types
 
 ---
 

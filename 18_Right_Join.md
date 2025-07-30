@@ -1,4 +1,4 @@
-# 🧠 SQL RIGHT JOIN — Notes & Explanation
+# 🧠 SQL RIGHT JOIN
 
 ---
 

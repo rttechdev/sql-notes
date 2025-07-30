@@ -1,4 +1,4 @@
-# 📊 Section Overview: GROUP BY & Aggregate Functions
+# 📊 GROUP BY & Aggregate Functions
 
 ---
 

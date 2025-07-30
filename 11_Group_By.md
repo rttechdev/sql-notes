@@ -1,4 +1,4 @@
-# 📌 SQL GROUP BY Notes
+# 📌 SQL GROUP BY
 
 ---
 

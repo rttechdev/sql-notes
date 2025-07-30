@@ -1,4 +1,4 @@
-# 📒 SQL Notes: CAST
+# 📒 CAST
 
 ---
 

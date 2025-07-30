@@ -1,4 +1,4 @@
-# 📒 SQL Notes: COALESCE
+# 📒 COALESCE
 
 ---
 

@@ -1,4 +1,4 @@
-# 🔗 SQL UNION – Summary
+# 🔗 SQL UNION 
 
 ---
 

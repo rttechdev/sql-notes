@@ -1,4 +1,4 @@
-# 🔍 Lecture Summary: Timestamps and Extract (Part 1)
+# 🔍 Timestamps and Extract
 
 ---
 

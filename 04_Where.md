@@ -1,4 +1,4 @@
-# 🟦 SQL: SELECT ... WHERE Clause (Part 1) — Summary Notes
+# 🟦 SQL: SELECT ... WHERE Clause
 
 ## ✅ Purpose
 

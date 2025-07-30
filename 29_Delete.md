@@ -1,4 +1,4 @@
-# 📒 SQL Notes: DELETE
+# 📒 DELETE
 
 ---
 

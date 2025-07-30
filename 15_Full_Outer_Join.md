@@ -1,4 +1,4 @@
-# 🧠 SQL FULL OUTER JOIN — Summary & Notes
+# 🧠 SQL FULL OUTER JOIN 
 
 ---
 

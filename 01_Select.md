@@ -1,4 +1,4 @@
-# 🟦 SQL: SELECT Statement — Summary Notes
+# 🟦 SQL: SELECT Statement
 
 ## ✅ Purpose
 - The `SELECT` statement is used to retrieve data from one or more columns in a table.
@@ -51,8 +51,3 @@ SELECT last_name, first_name FROM actor;
 - SQL is case-insensitive, so `select`, `SELECT`, and `SeLeCt` all work.
 
 ---
-
-## ✅ Extra Info (optional for tools like pgAdmin)
-
-- You can view tables and columns via UI in pgAdmin or by querying system tables (to be covered later).
-- Query history and scratchpad in pgAdmin can help during query development.

@@ -1,4 +1,4 @@
-# 📒 SQL Notes: INSERT INTO
+# 📒 INSERT INTO
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎓 Lecture: Understanding the INNER JOIN in SQL
+# 🎓 Understanding the INNER JOIN in SQL
 
 ---
 

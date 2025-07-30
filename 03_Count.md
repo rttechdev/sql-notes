@@ -1,4 +1,4 @@
-# 🟦 SQL: COUNT() Function — Summary Notes
+# 🟦 SQL: COUNT() Function 
 
 ## ✅ Purpose
 
